@@ -1,0 +1,173 @@
+@charset "UTF-8";
+*{
+    font-family: verdana,arial,sans-serif;
+}
+body{
+    font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    justify-content: center;
+}
+/*Index*/
+.menu{
+    text-align: center;
+    max-width: 100%;
+    padding: 1%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+
+}
+.menu img{
+    width:100px;
+    size: 10%;
+}
+ul{
+    list-style: none;
+    padding-left: 15%;
+}
+li{
+    display: inline-block;
+}
+a{
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+}
+.inicio img{
+    width: 500px;
+    float: right;
+}
+.inicio p{
+    width: 450px;
+    height: 300px;
+    text-align: justify;
+    background-color: #2b9cbc;
+    padding: 30px;
+    padding-left: 130px;
+    padding-top: 130px;
+    font-size: 35px;
+}
+.inicio a{
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 16px;
+    border: solid;
+}
+/*About Us*/
+.headaboutus{
+    max-width: 100%;
+    align-items: center;
+    padding:1%;
+    margin: 0 auto;
+}
+.headaboutus h1{
+    width:auto
+}
+.headaboutus img{
+    width: 100px;
+    float: right;
+}
+.about{
+    margin-left: 45%;
+}
+.textin{
+    margin-left: 45%;
+}
+.botao1{
+    cursor: pointer;
+    margin-left: 45%;
+}
+.setaE{
+     width: 100px;
+    float: right;
+}
+/*Formulário*/
+
+#titulo{
+    font-family: verdana,arial,sans-serif;
+    margin-left: 36%;
+}
+
+#sub{
+    font-family: verdana,arial,sans-serif;
+    margin-left: 40%;
+}
+.fieldset{
+    border:0;
+}
+input, select, textarea, button{
+    border-radius: 4px;
+}
+.cp{
+    margin-bottom: 1em;
+}
+.cp label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+fieldset .cp .gp{
+    float: left;
+    margin-right: 1em;
+}
+.cp input, .cp input, .cp select, .cp textarea{
+    padding: 0.3em;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px rgba(0,0,0,2);
+    display: block;
+}
+.cp select option{
+    padding-right: 1em;
+}
+.cp input:focus, .cp select:focus, .cp textarea:focus{
+    background: white;
+}
+.botao{
+    font-size: 1em;
+    border:0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao, select{
+    cursor: pointer;
+}
+#check{
+    display: inline-block;
+}
+.botao:hover{
+    background: blue;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.headform img{
+    width: 100px;
+    float: right;
+}
+
+/*Portifólio*/
+
+.logos img {
+    width: 35px;
+}
+p {
+display: inline-block;
+}
+.headport img{
+    width: 100px;
+    float: right;
+}
